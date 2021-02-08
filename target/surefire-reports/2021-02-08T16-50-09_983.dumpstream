@@ -1,0 +1,4 @@
+# Created at 2021-02-08T16:50:10.799
+Boot Manifest-JAR contains absolute paths in classpath 'D:\MuraliJavaProjects\PomTestNGMaven\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
