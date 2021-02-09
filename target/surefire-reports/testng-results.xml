@@ -1,51 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+<testng-results skipped="0" failed="1" ignored="0" total="12" passed="11">
   <reporter-output>
   </reporter-output>
-  <suite name="PomTestNGMaven-Suite" duration-ms="71785" started-at="2021-02-08T16:53:09 IST" finished-at="2021-02-08T16:54:20 IST">
+  <suite name="PomTestNGMaven-Suite" duration-ms="105744" started-at="2021-02-09T15:32:00 IST" finished-at="2021-02-09T15:33:46 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="71785" started-at="2021-02-08T16:53:09 IST" finished-at="2021-02-08T16:54:20 IST">
+    <test name="Test" duration-ms="105744" started-at="2021-02-09T15:32:00 IST" finished-at="2021-02-09T15:33:46 IST">
       <class name="com.pom.qa.testcases.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="setUp" is-config="true" duration-ms="6283" started-at="2021-02-08T16:53:09 IST" finished-at="2021-02-08T16:53:15 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="setUp" is-config="true" duration-ms="13967" started-at="2021-02-09T15:32:00 IST" finished-at="2021-02-09T15:32:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="loginPageTitleTest" duration-ms="83" started-at="2021-02-08T16:53:15 IST" finished-at="2021-02-08T16:53:15 IST">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="loginPageTitleTest" duration-ms="54" started-at="2021-02-09T15:32:14 IST" finished-at="2021-02-09T15:32:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTitleTest -->
-        <test-method status="PASS" signature="mainLoginbtn()[pri:2, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="mainLoginbtn" duration-ms="7010" started-at="2021-02-08T16:53:15 IST" finished-at="2021-02-08T16:53:22 IST">
+        <test-method status="PASS" signature="mainLoginbtn()[pri:2, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="mainLoginbtn" duration-ms="4304" started-at="2021-02-09T15:32:14 IST" finished-at="2021-02-09T15:32:18 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainLoginbtn -->
-        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="loginTest" duration-ms="353" started-at="2021-02-08T16:53:22 IST" finished-at="2021-02-08T16:53:22 IST">
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="loginTest" duration-ms="13662" started-at="2021-02-09T15:32:18 IST" finished-at="2021-02-09T15:32:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="tearDown" is-config="true" duration-ms="1543" started-at="2021-02-08T16:53:22 IST" finished-at="2021-02-08T16:53:24 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pom.qa.testcases.LoginPageTest@20398b7c]" name="tearDown" is-config="true" duration-ms="1259" started-at="2021-02-09T15:32:32 IST" finished-at="2021-02-09T15:32:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pom.qa.testcases.LoginPageTest -->
       <class name="com.pom.qa.testcases.ContactsPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="setUp" is-config="true" duration-ms="24806" started-at="2021-02-08T16:53:44 IST" finished-at="2021-02-08T16:54:08 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="setUp" is-config="true" duration-ms="15950" started-at="2021-02-09T15:32:54 IST" finished-at="2021-02-09T15:33:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyContactsPageLabel()[pri:1, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="verifyContactsPageLabel" duration-ms="39" started-at="2021-02-08T16:54:08 IST" finished-at="2021-02-08T16:54:08 IST">
+        <test-method status="PASS" signature="verifyContactsPageLabel()[pri:1, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="verifyContactsPageLabel" duration-ms="48" started-at="2021-02-09T15:33:10 IST" finished-at="2021-02-09T15:33:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactsPageLabel -->
-        <test-method status="PASS" signature="verifyNewContactTest()[pri:2, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="verifyNewContactTest" duration-ms="941" started-at="2021-02-08T16:54:08 IST" finished-at="2021-02-08T16:54:09 IST">
+        <test-method status="PASS" signature="verifyNewContactTest()[pri:2, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="verifyNewContactTest" duration-ms="122" started-at="2021-02-09T15:33:10 IST" finished-at="2021-02-09T15:33:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewContactTest -->
-        <test-method status="PASS" signature="verifyNewContactSingleDataTest()[pri:3, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="verifyNewContactSingleDataTest" duration-ms="3207" started-at="2021-02-08T16:54:09 IST" finished-at="2021-02-08T16:54:13 IST">
+        <test-method status="FAIL" signature="verifyNewContactSingleDataTest()[pri:3, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="verifyNewContactSingleDataTest" duration-ms="20149" started-at="2021-02-09T15:33:11 IST" finished-at="2021-02-09T15:33:31 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='first_name']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FBFACADN', ip: '192.168.2.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Murali\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56bf52224cecfb5722fa181f29606a5c
+*** Element info: {Using=name, value=first_name}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='first_name']"}
+  (Session info: chrome=88.0.4324.146)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FBFACADN', ip: '192.168.2.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.146, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\Murali\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 56bf52224cecfb5722fa181f29606a5c
+*** Element info: {Using=name, value=first_name}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+at com.pom.qa.pages.ContactsPage.newContactInput(ContactsPage.java:52)
+at com.pom.qa.testcases.ContactsPageTest.verifyNewContactSingleDataTest(ContactsPageTest.java:68)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:377)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:138)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:465)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:451)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNewContactSingleDataTest -->
-        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String)[pri:4, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="validateCreateNewContact" duration-ms="2171" started-at="2021-02-08T16:54:13 IST" data-provider="getTestData" finished-at="2021-02-08T16:54:15 IST">
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String)[pri:4, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="validateCreateNewContact" duration-ms="7853" started-at="2021-02-09T15:33:32 IST" data-provider="getTestData" finished-at="2021-02-09T15:33:40 IST">
           <params>
             <param index="0">
               <value>
@@ -61,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateNewContact -->
-        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String)[pri:4, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="validateCreateNewContact" duration-ms="2247" started-at="2021-02-08T16:54:15 IST" data-provider="getTestData" finished-at="2021-02-08T16:54:17 IST">
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String)[pri:4, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="validateCreateNewContact" duration-ms="2244" started-at="2021-02-09T15:33:40 IST" data-provider="getTestData" finished-at="2021-02-09T15:33:42 IST">
           <params>
             <param index="0">
               <value>
@@ -77,7 +153,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateNewContact -->
-        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String)[pri:4, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="validateCreateNewContact" duration-ms="2172" started-at="2021-02-08T16:54:17 IST" data-provider="getTestData" finished-at="2021-02-08T16:54:20 IST">
+        <test-method status="PASS" signature="validateCreateNewContact(java.lang.String, java.lang.String)[pri:4, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="validateCreateNewContact" duration-ms="2331" started-at="2021-02-09T15:33:42 IST" data-provider="getTestData" finished-at="2021-02-09T15:33:45 IST">
           <params>
             <param index="0">
               <value>
@@ -93,29 +169,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCreateNewContact -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="tearDown" is-config="true" duration-ms="781" started-at="2021-02-08T16:54:20 IST" finished-at="2021-02-08T16:54:20 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pom.qa.testcases.ContactsPageTest@56235b8e]" name="tearDown" is-config="true" duration-ms="1163" started-at="2021-02-09T15:33:45 IST" finished-at="2021-02-09T15:33:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.pom.qa.testcases.ContactsPageTest -->
       <class name="com.pom.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="13208" started-at="2021-02-08T16:53:24 IST" finished-at="2021-02-08T16:53:37 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="setUp" is-config="true" duration-ms="16095" started-at="2021-02-09T15:32:33 IST" finished-at="2021-02-09T15:32:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="verifyHomePageTitleTest" duration-ms="6" started-at="2021-02-08T16:53:37 IST" finished-at="2021-02-08T16:53:37 IST">
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="verifyHomePageTitleTest" duration-ms="6" started-at="2021-02-09T15:32:49 IST" finished-at="2021-02-09T15:32:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="verifyUserNameTest" duration-ms="2077" started-at="2021-02-08T16:53:37 IST" finished-at="2021-02-08T16:53:39 IST">
+        <test-method status="PASS" signature="verifyUserNameTest()[pri:2, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="verifyUserNameTest" duration-ms="1895" started-at="2021-02-09T15:32:50 IST" finished-at="2021-02-09T15:32:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserNameTest -->
-        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:3, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="verifyContactsLinkTest" duration-ms="1517" started-at="2021-02-08T16:53:39 IST" finished-at="2021-02-08T16:53:41 IST">
+        <test-method status="PASS" signature="verifyContactsLinkTest()[pri:3, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="verifyContactsLinkTest" duration-ms="522" started-at="2021-02-09T15:32:51 IST" finished-at="2021-02-09T15:32:52 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyContactsLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="2919" started-at="2021-02-08T16:53:41 IST" finished-at="2021-02-08T16:53:44 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.pom.qa.testcases.HomePageTest@6fc6f14e]" name="tearDown" is-config="true" duration-ms="2470" started-at="2021-02-09T15:32:52 IST" finished-at="2021-02-09T15:32:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -1,5 +1,6 @@
 package com.pom.qa.pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
@@ -59,12 +60,13 @@ public class HomePage extends BaseTest{
 		action.moveToElement(navLink).build().perform();
 		//contactsLink.click();
 		//return new ContactsPage();
-		
 	}
 	
 	public ContactsPage clickOnContactsLink(){
 		clickOnNavbarAndContacts();
-		contactsLink.click();
+		//contactsLink.click();
+		JavascriptExecutor js = (JavascriptExecutor)driver;
+    	js.executeScript("arguments[0].click();", contactsLink);
 		return new ContactsPage();
 	}
 	

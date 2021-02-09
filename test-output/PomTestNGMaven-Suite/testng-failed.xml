@@ -9,7 +9,8 @@
       <class name="com.pom.qa.testcases.ContactsPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="validateCreateNewContact" invocation-numbers="0 1 2"/>
+          <include name="validateCreateNewContact" invocation-numbers="0"/>
+          <include name="verifyNewContactSingleDataTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.pom.qa.testcases.ContactsPageTest -->

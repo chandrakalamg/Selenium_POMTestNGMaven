@@ -1,6 +1,6 @@
 package com.pom.qa.testcases;
 
-import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
@@ -46,7 +46,6 @@ public class ContactsPageTest extends BaseTest {
 	/*
 	@BeforeMethod
 	public void beforemethod() {
-		
 		Assert.assertTrue(contactsPage.verifyContactsLabel(), "contacts label is missing on the page");
 		contactsPage.newContact();
 	}
@@ -82,7 +81,6 @@ public class ContactsPageTest extends BaseTest {
 		contactsPage.newContactInput(firstName, lastName);
 	}
 	
-
 	@AfterClass
 	public void tearDown(){
 		driver.quit();
